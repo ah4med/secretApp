@@ -16,7 +16,7 @@ const controllerHandler = (app) => {
   //===================================================================================================//
   // home page
   app.get("/", (req, res) => {
-    res.send("Hello Worlddddddddd");
+    res.send("Hello fluff");
   });
   // handle not found routes
   app.all("*", (req, res) => {
